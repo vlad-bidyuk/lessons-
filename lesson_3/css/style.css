@@ -1,0 +1,23 @@
+@import url(reset.css);
+h1{
+    color:green;
+}
+h2{
+    color:yellow;
+}
+ul {
+    color:red;
+}
+.text{
+    color:blueviolet;
+}
+h3{
+    color:brown;
+}
+.lesson,
+.main{
+    color:orange;
+}
+#list{
+    color:blue;
+}
