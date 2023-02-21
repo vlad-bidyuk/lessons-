@@ -1,0 +1,94 @@
+@import url("reset.css");
+@import url("https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900&display=swap");
+@font-face {
+    font-family: 'HelveticaNeue';
+    src: url('../fonts/HelveticaNeueCyr-Bold.woff2') format('woff2'),
+        url('../fonts/HelveticaNeueCyr-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'HelveticaNeue';
+    src: url('../fonts/HelveticaNeueCyr-Medium.woff2') format('woff2'),
+        url('../fonts/HelveticaNeueCyr-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;                       
+}
+@font-face {
+    font-family: 'HelveticaNeue';
+    src: url('../fonts/HelveticaNeueCyr-Bold.woff') format('woff2'),
+        url('../fonts/HelveticaNeueCyr-Bold.woff2') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+body{
+    font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;    
+}
+
+h1{
+    font-family: "HelveticaNeue", sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    color: red;
+    text-align: center;
+    text-shadow: 2px 2px 5px #000;
+}
+p{
+    color: salmon;
+    text-decoration:overline;
+    text-transform: uppercase;
+    text-align: center;
+}
+.text{
+    font-family: "inter";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    color: blue;
+    text-align: center;
+    text-decoration:none;
+    text-transform:none;
+    text-indent: 80px;
+}
+h2{
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    color: green;
+    text-shadow: 2px 2px 5px #000;
+    line-height: 0,2;
+    text-align: center;
+}
+.lesson{
+    font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 1.5;
+text-align: justify;
+color: cadetblue;
+}
+#list{
+color: aqua;
+text-decoration:none;
+text-transform:none;
+font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 1.5;
+word-spacing: 10px;
+}
+
+
+
+
