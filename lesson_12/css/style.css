@@ -1,0 +1,281 @@
+@import url("reset.css");
+@import url("https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900&display=swap");
+body{
+    font-size: 20px;
+    font-family: "inter";
+}
+.wrapper {
+	overflow: clip;
+	min-height: 100%;
+}
+[class*="__container"]{
+    max-width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    font-size: 0;
+
+}
+.content{
+    background-color: brown;
+}
+.title{
+    font-family: "inter";
+    text-align: center;
+    margin-bottom: 30px;
+    padding-top: 15px;
+    font-size: 30px;
+}
+.block{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    display:inline-block;
+    font-size: 20px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+
+}
+
+.block__translate{
+    height: 100%;
+    background-color: aqua;
+    transform: translate(20px, -30px);
+}
+.block__translate p{
+    position: relative;
+    left: 0;
+    top: 80px;
+}
+.block__translate:hover{
+    transform: translate(0px, 0px);
+}
+.block__scale{
+    height: 100%;
+    background-color: aqua;
+    transform: scale(0.8);
+}
+.block__scale p{
+    position: relative;
+    left: 0;
+    top: 80px;
+}
+.block__scale:hover{
+    transform: scale(1);
+}
+.block__rotate{
+    height: 100%;
+    background-color: aqua;
+    transform:rotate(90deg)
+}
+.block__rotate p{
+    position: relative;
+    left: 0;
+    top: 80px;
+}
+.block__rotate:hover{
+    transform:rotate(360deg)
+}
+.block__skew{
+    height: 100%;
+    background-color: aqua;
+    transform: skew(2deg, 7deg);
+}
+.block__skew p{
+    position: relative;
+    left: 0;
+    top: 80px;
+}
+.block__skew:hover{
+    transform: skew(0deg, 0deg);
+}
+.block__micks{
+    height: 100%;
+    background-color: aqua;
+    transform: rotate(180deg) scale(0.7) skew(4deg, 6deg);
+}
+.block__micks p{
+    position: relative;
+    left: 0;
+    top: 80px;
+}
+.block__micks:hover{
+    transform: rotate(0deg) scale(1) skew(0deg, 0deg);
+}
+.block__transform-origin{
+    height: 100%;
+    background-color: aqua;
+    transform-origin: 80px 100px;
+	transform: rotate(30deg);
+}
+.block__transform-origin p{
+    position: relative;
+    left: 0;
+    top: 80px;
+}
+.block__transform-origin:hover{
+    transform-origin: 80px 100px;
+	transform: rotate(0deg);
+}
+.block{
+    perspective-origin: center;
+    perspective: 400px;
+}
+.block__perspective{
+    height: 100%;
+    background-color: aqua;
+    transform: rotateX(50deg);
+
+}
+.block__perspective p{
+    position: relative;
+    left: 0;
+    top: 80px;
+}
+.block__perspective:hover{
+    transform: rotateX(0deg);
+}
+.block__translate3d{
+    height: 100%;
+    background-color: aqua;
+    transform: translate3d(20px, 30px, 40px);
+}
+.block__translate3d p{
+    position: relative;
+    left: 0;
+    top: 80px;
+}
+.block__translate3d:hover{
+    transform: translate3d(0px, 0px, 0px);
+}
+.block__rotate3d{
+    height: 100%;
+    background-color: aqua;
+    transform: rotate3d(1, 1, 1, 45deg);
+}
+.block__rotate3d p{
+    position: relative;
+    left: 0;
+    top: 80px;
+}
+.block__rotate3d:hover{
+    transform: rotate3d(1, 1, 1, 0deg);
+}
+.block_transform-style{
+    perspective: 400px;
+	transform-style: preserve-3d;
+    opacity: 0.8;
+}
+.block__style{
+    height: 100%;
+    background-color: aqua;
+    transform: rotateX(50deg);
+}
+.block__style p{
+    position: relative;
+    left: 0;
+    top: 80px;
+}
+.block__style:hover {
+    transform: rotateX(0deg);
+}
+.block_transform-style:hover{
+    opacity: 1;
+}
+.block_backface-visibility{
+    perspective: 500px;
+    transform-style: preserve-3d;
+}
+.block__visibility{
+    height: 100%;
+    background-color: aqua;
+    backface-visibility: hidden;
+    transform: rotateY(-180deg);
+}
+.block__visibility p{
+    position: relative;
+    left: 0;
+    top: 80px;
+}
+.block_backface-visibility:hover .block__visibility{
+    transform: rotateY(0deg);
+}
+
+
+
+
+
+
+.car{
+    background-color: blueviolet;
+    height: 1200px;
+}
+.car__limitation{
+    max-width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+.car__title{
+    text-align: center;
+    padding-top: 50px;
+    font-family: "inter";
+    font-size: 49px;
+    padding-bottom: 50px;
+}
+.section{
+    max-width: 700px;
+    margin: 0 auto;
+    position: relative;
+}
+.section__cabin{
+    border-radius: 120px 120px 60px 0px;
+    height: 150px;
+    width: 400px;
+    background-color:#00FFFF;
+    border: 15px solid black;
+    margin-left: 180px;
+}
+.section__body{
+    height: 200px;
+    width: 700px;
+    background-color:darkgreen;
+    position:absolute;
+    top: 80px;
+    left: 0px;
+    border-radius: 120px 120px 60px 0px;
+    border: 40px solid black;
+}
+.section__wheel1{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: bisque;
+    z-index: 6;
+    position: absolute;
+    left: 150px;
+    top: 200px;
+    border: 15px dashed black;
+}
+.section__wheel2{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: bisque;
+    z-index: 6;
+    position: absolute;
+    left: 450px;
+    top: 200px;
+    border: 15px dashed black;
+}
+.section__detail1{
+    height: 160px;
+    width: 15px;
+    background-color: black;
+    position: absolute;
+    left: 300px;
+    top: 80px;
+}
+
+
