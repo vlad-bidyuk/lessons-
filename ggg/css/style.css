@@ -1,0 +1,82 @@
+@import url("reset.css");
+@import url(https://fonts.googleapis.com/css?family=Inter:regular,600&display=swap);
+body{
+    font-family: "inter" 
+}
+[class*="__container"]{
+    max-width: 1310px;
+    margin: 0 auto;
+    padding-left: 15px;
+	padding-right: 15px;
+    padding-top: 50px;
+}
+.article__text{
+    max-width: 998px;
+    margin: 0 auto;
+}
+.title{
+    font-size: 72px;
+font-style: normal;
+font-weight: 600;
+line-height: 1.2;
+text-align: center;
+margin-bottom: 16px;
+}
+.paragraph{
+    font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.5;
+color: var(--grayscale-dark-585858, #585858);
+text-align: center;
+margin-bottom: 48px;
+}
+.buttom{
+    max-width: 402px;
+    margin: 0 auto;
+    font-size: 0;
+    margin-bottom: 64px;
+}
+.buttom1{
+    display: inline-block;
+    width: 203px;
+height: 64px;
+border-radius: 20px;
+background: var(--primary-purple-824-deb, #824DEB);
+margin-right: 24px;
+}
+.buttom1__text{
+    padding-top: 21px;
+    padding-left: 54px;
+    font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 1.2;
+color: var(--grayscale-white-ffffff, #FFF);
+}
+.buttom2{
+    display: inline-block;
+    width: 175px;
+height: 64px;
+border-radius: 20px;
+border: 1px solid var(--grayscale-dark-acacac, #ACACAC);
+}
+.buttom2__text{
+    padding-top: 21px;
+    padding-left: 40px;
+    font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 1.2;
+}
+.image{
+    background: url("../img/01.png"), lightgray 50% / cover no-repeat;
+    border-radius: 20px 20px 0px 0px;
+    display: inline-block;
+}
+.foto{
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-right: 40px;
+    width: 1187px;
+}
